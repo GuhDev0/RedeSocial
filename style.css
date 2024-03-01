@@ -1,0 +1,79 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    color: rgb(255, 255, 255);
+    background-color: #141414;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.card-redeSocial{
+    background-color: #1F1F1F;
+    padding: 3.5em;
+    width: 40em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2em;
+}
+.card-redeSocial img{
+    border-radius: 50%;
+    padding-bottom: 2em;
+    width: 12em;
+    height: auto;
+}
+.card-redeSocial .nameUsuario{
+    font-size: 3em;
+    padding-bottom: 0.2em;
+    
+}
+.card-redeSocial .localUsuario{
+    color:  hsl(75, 94%, 57%);
+    font-size: 1.5em;
+    padding-bottom: 1.4em;
+}
+.card-redeSocial .profissaoUsuario{
+    font-size: 1.4em;
+    padding-bottom: 1.7em;
+}
+.card-redeSocial .container-btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5em;
+    
+}
+.card-redeSocial .btn{
+    cursor: pointer;
+    width: 80%;
+    height: 2.5em;
+    color: white;
+    font-weight: bold;
+    background-color: #333333;
+    border-radius: 0.5em;
+    border: none;
+    transition: 0.5s;
+}
+.card-redeSocial .btn:hover{
+    background-color: hsl(75, 94%, 57%);
+}
+
+
